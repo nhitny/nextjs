@@ -46,3 +46,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+--------------------------------------------
+1. Cấu trúc thư mục dự án 
+ Thư mục: 
+  .next: đây là code "đã được dịch" của next.js 
+  - public: chứa static file (CSS/JS/images)
+  - src/app: chứa source dự án với next 13 (router)
+  .eslintrc.json: config eslint (warning ở terminal)
+  - next.config.js: cấu hình next js 
+  - package.json: thông tin thư viện cài đặt
+  - tsconfig.json: cấu hình compiler của typescript 
+
+2. dữ liệu ít thay đổi dùng server side redering, dữ liệu thay đổi nhiều dùng client side rendering
+  
